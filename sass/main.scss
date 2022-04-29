@@ -75,11 +75,20 @@ nav {
     }
 }
 
-
-
-.footer {
+@mixin footer {
     color: black;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
+}
+
+/*.footer {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+} */
+
+.footer {
+    @include footer
 }
