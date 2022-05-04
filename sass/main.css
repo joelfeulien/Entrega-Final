@@ -82,10 +82,110 @@ nav ul li a:hover {
   opacity: 80%;
 }
 
+/*.footer {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+} */
 .footer {
   color: black;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  gap: 5px 5px;
+}
+
+.grid-item {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    gap: 5px 5px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+    gap: 5px 5px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #carouselExampleControls {
+    padding-left: 450px;
+    padding-right: 450px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #carouselExampleControls {
+    padding-left: 350px;
+    padding-right: 350px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #carouselExampleControls {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #carouselExampleControls {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #carouselExampleControls {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #carouselExampleControls {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #carouselExampleControls {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #carouselExampleControls {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
