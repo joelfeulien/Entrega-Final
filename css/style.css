@@ -233,3 +233,9 @@ nav ul li a:hover{
         width: 400px;
     }
 }
+
+@media screen and (max-width: 440px) {
+    .formulario {
+        width: 300px;
+    }
+}
